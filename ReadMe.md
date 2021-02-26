@@ -12,25 +12,27 @@ This projects analysis consists of using big data tools to answer questions abou
 - Hadoop
 - Hive
 ### Features
- - Creates Multiple tables and Views
+ - Creates Multiple tables and views, showing various wiki data
  ### To-do 
  - Merge some tables so there are not as many
 ### Getting Started
 - Download Hadoop, Yarn, Hive
 - Setup cluster,hdfs, and Hive connection
-- Download all relevant data from the wikipedia links below:
+- Download all relevant data from the wikipedia links below to HDFS:
 https://dumps.wikimedia.org/other/pageviews/readme.html
 https://dumps.wikimedia.org/other/mediawiki_history/readme.html
 https://dumps.wikimedia.org/other/clickstream/readme.html
 
 Git Clone:
 ```
-gh repo clone t4co97/Revature/WikiAnalysis
+gh repo clone t4co97/Wiki-Data-Analysis
 or
 $git clone https://github.com/t4co97/Wiki-Data-Analysis.git
 ```
 ### Usage
-- Open up the script and comment out drop statements
+- Change file paths for files
+- Make sure all wiki files are in HDFS
+- Open up the script in Hive and comment out drop statements
 - Run query
 - or run each query individually and skip drop statements
 
