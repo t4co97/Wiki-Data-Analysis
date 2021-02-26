@@ -27,7 +27,7 @@ Git Clone:
 ```
 gh repo clone t4co97/Revature/WikiAnalysis
 or
-$git clone https://github.com/t4co97/Revature.git WikiAnalysis
+$git clone https://github.com/t4co97/Wiki-Data-Analysis.git
 ```
 ### Usage
 - Open up the script and comment out drop statements
